@@ -4,7 +4,7 @@ import { useGlobalContext } from './context'
 
 const Hero = () => {
   const {closeSubmenu} = useGlobalContext()
-
+  //если наводимся на херо - закрываем тултип/сабменю
   return (
     <section className='hero' onMouseOver={closeSubmenu}>
       <div className="hero-center">

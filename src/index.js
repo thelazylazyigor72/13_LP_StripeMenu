@@ -6,6 +6,7 @@ import { AppProvider } from './context'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+//опять же Апп обертывается в компонент обертку
 root.render(
   <React.StrictMode>
     <AppProvider>
